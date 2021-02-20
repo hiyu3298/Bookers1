@@ -14,67 +14,71 @@
  *= require_self
  */
 
-body{
-	margin: 30px;
-}
-.text-title{
-	font-size: 26px;
-}
-p {
-	padding-left: 50px;
-	font-size: 13px;
-	padding-top: 5px;
-	padding-bottom: 10px;
-}
-.books{
-	font-size: 28px;
-	font-weight: 900;
-	margin-bottom: 0;
-}
-.newbook{
-	font-size: 20px;
-	font-weight: 900;
-}
-h4{
-	font-size: 12px;
-	font-weight: normal;
-	margin-bottom: 0;
-}
-.create-book{
-	display:block;
-	margin-top: 5px;
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
 }
 
-
-/*詳細ページ*/
-
-.flash{
-	color:green;
-}
-.show{
-	margin-top: 15px;
-	padding-left: 0;
-}
-td{
-	font-weight: normal;
-	font-size: 13px;
-	color: #000000;
-	margin-right: 5px;
-}
-td a{
-	padding-right: 5px;
-}
-a{
-	color: #000000;
-}
-/* 編集画面　*/
-
-.editing-book{
-	font-size: 24px;
-	margin-bottom: 0;
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
 }
 
-.Update-book{
-	display: block;
-	margin-top: 5px;
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a {
+  color: #000;
+}
+
+th {
+  padding-bottom: 5px;
+}
+
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.flash {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+h2 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+    margin: -7px;
+    color: #fff;
+}
+
+ul li {
+    font-size: 12px;
+    list-style: square;
+}
+
+label {
+  display: block;
 }
